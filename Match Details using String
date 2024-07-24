@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner s = new Scanner(System.in);
+        String a = s.nextLine();
+        int b = s.nextInt();
+        int c = s.nextInt();
+        s.nextLine();
+        String a1 = s.nextLine();
+        int b1 = s.nextInt();
+        int c2 = s.nextInt();
+         System.out.println("Match Details:");
+         System.out.println("Team 1: ");
+         System.out.println("Name: "+a);
+         System.out.println("Score: "+b);
+         System.out.println("Overs played: "+c);
+         System.out.println("Team 2: ");
+         System.out.println("Name: "+a1);
+         System.out.println("Score: "+b1);
+         System.out.println("Overs played: "+c2);
+    }
+}
+
