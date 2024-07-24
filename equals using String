@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String a=sc.nextLine();
+        if(a.equals("RED"))
+        {
+            System.out.println("The Chromatic Horizon reveals: It is Dusk");
+        }else if(a.equals("BLUE")){
+            System.out.println("The Chromatic Horizon whispers: It is Dawn");
+        }else{
+            System.out.println("The Chromatic Riddle unfolds: Invalid Input");
+        }
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
+
